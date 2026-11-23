@@ -1,0 +1,28 @@
+
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+*.log
+
+# Environment dan rahasia
+.env
+.env.*
+!.env.example
+
+# React / Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Upload dan database lokal
+backend/uploads/*
+!backend/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+*.db
+*.sqlite3
+
+# Editor
+.vscode/
